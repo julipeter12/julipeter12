@@ -2,7 +2,7 @@
 
 <!--
 **julipeter12/julipeter12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+<p> I am currently pusing a Bachelor of Science in Electrical Engineering. I am expected to graduate in Spring 2026. </p> 
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
