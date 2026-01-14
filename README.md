@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-I am currently pusing a Bachelor of Science in Electrical Engineering. I am expected to graduate in Spring 2026.
+My name is Julianna Peterson-Ramos. I am currently pursing a Bachelor of Science in Electrical Engineering at Wright State University. I am expected to graduate in Spring 2026.
+
+I am an intern with TetraTech for the Water Deparment of Dayton. I will be working on various projects primarily with PLCs.
 
 <!--
 **julipeter12/julipeter12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
