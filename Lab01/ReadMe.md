@@ -42,15 +42,15 @@ My Command Line Shell is: Powershell
 5. Go into `Dir B` from `DirA`: cd '..\Dir B\'
 6. Return to your user's home directory: cd ~
 7. Create a file named `test.txt`: New-Item text.txt
-8. Move the file named `test.txt` into `DirA`: mv C:\Users\julia\test.txt C:\Users\julia\DirA\test.txt
-9. Contents of `test.txt`:notepad.exe test.txt
+8. Move the file named `test.txt` into `DirA`: mv C:\Users\jcpculia\test.txt C:\Users\julia\DirA\test.txt
+9. Contents of `test.txt`: notepad.exe test.txt
 ```
 You got this!
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
+11. View the contents of `DirA`: ls 
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: First made a copy of test.txt to fodder.txt using cp test.txt fodder.txt then I moved the file to Dir B using mv fodder.txt 'C:\Users\julia\Dir B\'
+13. Delete / remove both `fodder.txt` AND `Dir B`: changed the directory to Dir B by cd '.\Dir B\' then used rm fodder.txt to remove the file. Then went back one directory (C:\Users\julia) and used rm 'Dir B' to remove the directory.
 
 ## Citations
 
