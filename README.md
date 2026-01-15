@@ -4,9 +4,11 @@ My name is Julianna Peterson-Ramos. I am currently pursing a Bachelor of Science
 
 I am an intern with TetraTech for the Water Deparment of Dayton. I will be working on various projects primarily with PLCs.
 
+RF Transmission with Encryption
+Ten images will be encrypted and transmitted using two RF transceivers that show weaknesses of a system. This project works on a solution that does not involve Bluetooth, Wi-fi, and Cellular. 
+
 <!--
 **julipeter12/julipeter12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-I am currently pusing a Bachelor of Science in Electrical Engineering. I am expected to graduate in Spring 2026.
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
