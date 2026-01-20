@@ -50,7 +50,8 @@ You got this!
 10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
 11. View the contents of `DirA`: ls 
 12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: First made a copy of test.txt to fodder.txt using cp test.txt fodder.txt then I moved the file to Dir B using mv fodder.txt 'C:\Users\julia\Dir B\'
-13. Delete / remove both `fodder.txt` AND `Dir B`: changed the directory to Dir B by cd '.\Dir B\' then used rm fodder.txt to remove the file. Then went back one directory (C:\Users\julia) and used rm 'Dir B' to remove the directory.
+13. Delete / remove both `fodder.txt` AND `Dir B`: Went back one directory (C:\Users\julia) and used rm 'Dir B' to remove the directory and everyting inside the directory including fofder.txt. It did ask me before deleting if I was sure I wanted to delete Dir B. 
+
 
 ## Citations
 
