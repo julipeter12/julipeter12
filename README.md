@@ -6,10 +6,10 @@ I am an intern with TetraTech for the Water Deparment of Dayton. I will be worki
 
 ## Upcoming Projects ✨
 
-RF Transmission with Encryption
+# RF Transmission with Encryption
 Ten images will be encrypted and transmitted using two RF transceivers that show weaknesses of a system. This project works on a solution that does not involve Bluetooth, Wi-fi, and Cellular. There is a software aspect involving establishing a web server, create a website, and write code to detect red circles in images. 
 
-Graphics for SCADA Interface
+# Graphics for SCADA Interface
 Will be creating graphics to represent different PLCs and other functions for the SCADA system. The graphics are simple but help keep track of how the systems is operating and the specifc PLCs. 
 
 <!--
