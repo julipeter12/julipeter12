@@ -1,0 +1,84 @@
+## CEG 2350 Notes
+cd change directory
+ls list
+clear this will clear screen
+pwd print working directory tells me where I am (shows a path of where you are)
+cd .. will go back a directory
+ls argument will show what is inside the argument
+ls .\arg\arg\ will show you what's in the second argument
+Using the up arrow will give you previous commands
+cd ..\Desktop\ will change the second argument to Desktop
+
+cd : Cannot find path 'C:\Users\Desktop' because it does not exist.
+At line:1 char:1
++ cd Desktop
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Desktop:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ This error means the file does not exist. Also using ls can show you the file isn't in the list.
+
+Systems do hide some information from you. They could use icons to hide those details.
+whoami shows the name of the user
+hostname shows the computer name
+cd ~ this will take you to the currently signed in folder basically the home directory
+cd ../../../  the ../ takes you back a directory
+Parents will always have children but if a parent has no parent it is a parent of itself
+cd ‘E:’ will change the drive to E (make sure to include the colon)
+In Windows it is what drive you are trying to use. In Linux what file are you trying to use. 
+cd $HOME is the same as cd ~ The dollar sign makes it a variable 
+echo It is similar to a print statement 
+The mouse inputs triggers a command line 
+notepad.exe filename will create or edit a file in notepad
+If the man does not work try help 
+whatis gives a one line description of what a command is
+history shows past command but it is finite and only relevant in the shell you opened but in Linux it will keep a finite number of commands from whenever you ran them
+printf does not include a return line but echo does 
+
+| Windows | Linux / Mac | Action |
+| ---     | ---         | ---    |
+| help    | man         | Displays help about Powershell commmand and concepts |
+| Get-Location | pwd    | Shows a path of where you are in your files |
+| Get-ChildItem | ls    | Shows a list of what is in the file you are looking at |
+| mkdir   | mkdir       | Used to create a new directory |
+| Set-Location | cd     | Changes the current working directory |
+| New-Item | touch      | Creates a new item in a location |
+| Move-Item | mv        | Moves a item from one location to another but also removes it from the original location |
+| Copy-Item | cp        | Copies one item to another location but leaves it in the original location |
+| Remove-Item | rm      | Removes/Deletes a file from a location |
+| notepad.exe | vim     | Launches Notepad |
+
+ssh, permissions, git
+ssh ~ secure shell
+keygen ~ generate key
+-t means type -C means comment ed25519 is encryption 
+cat will show you the content in a file or files
+-lah the a means all including hidden files that start with . , the h is for human readable, l shows you the metadata of each file
+The first block is the file type (-), the second block is for read, write, or execute for the owner (rwx), the third block is the group owner and they can read or write (rw-), the last block is for others (r--) they can only read 
+
+sudo - super user do, gives you admin permission so to override commands
+usermod - use it to add users into a group
+deluser, userdel, useradd, adduser just comes down to which one will work better but they have the same functions
+getent - reads from databases, like passwd, shadow
+who - shows who is logged on
+apt - helps installs tools like microsoft store for microsoft 
+finger - user info lookup
+Pull would be from gtihub to vs code
+Pysh would be like vs code to github
+
+Rep steps for new sandbox
+ssh-keygen -t ed25519 -C “email’
+Cd .ssh
+ls
+Lock is .pub and the private key has no extension
+Copy public key
+Go to github account settings
+git clone url this will clone your ssh repo then it will make a folder/workspace
+git status can help you get hints sometimes for a new command
+git add will add a file you can put the files in a list to add multiple at once
+git commit 
+git commit -m “message”
+Commits have to have authorship 
+For the first time using git commit, you need to configure your email and you name
+git config -global user.email 
+
+Everytime you log into the instance make sure to run git pull to make sure everything is up to date
